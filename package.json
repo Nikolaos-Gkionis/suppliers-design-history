@@ -1,7 +1,7 @@
 {
   "name": "govuk-eleventy-plugin",
   "version": "2.2.0",
-  "description": "Write documentation using Markdown and publish it using GOV.UK styles",
+  "description": "A Design history for the Phase 5 of the New Computerised Trading System (NCTS)",
   "keywords": [
     "govuk",
     "government",
@@ -28,7 +28,7 @@
   "sass": "lib/govuk.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/x-govuk/govuk-eleventy-plugin.git"
+    "url": "https://ctc-trader-p5-prototype.herokuapp.com/.git"
   },
   "scripts": {
     "prebuild": "rimraf public",

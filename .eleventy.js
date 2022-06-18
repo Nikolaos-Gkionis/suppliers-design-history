@@ -16,17 +16,17 @@ module.exports = function (eleventyConfig) {
       touch: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
     },
     ogImage: '/assets/opengraph-image.png',
-    homeKey: 'GOV.UK Eleventy Plugin',
+    homeKey: 'NCTS Design History',
     parentSite: {
-      url: 'https://x-govuk.github.io/#shared-projects',
-      name: 'X-GOVUK shared projects'
+      url: '',
+      name: ''
     },
     pathPrefix,
     url,
     header: {
-      organisationLogo: 'x-govuk',
-      organisationName: 'X-GOVUK',
-      productName: 'Eleventy Plugin',
+      organisationLogo: 'crown',
+      organisationName: 'NCTS',
+      productName: 'Design History',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
