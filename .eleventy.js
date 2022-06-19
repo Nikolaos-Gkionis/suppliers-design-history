@@ -49,8 +49,8 @@ module.exports = function (eleventyConfig) {
   })
 
   // Collections
-  eleventyConfig.addCollection('layout', collection =>
-    collection.getFilteredByTag('layout')
+  eleventyConfig.addCollection('history', collection =>
+    collection.getFilteredByTag('history')
       .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
   )
   eleventyConfig.addCollection('homepage', collection =>
@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'docs',
       output: 'public',
-      layouts: '../layouts'
+      history: '../history'
     },
     pathPrefix
   }

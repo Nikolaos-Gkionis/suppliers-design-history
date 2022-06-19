@@ -7,7 +7,7 @@ tags:
   - homepage
 ---
 
-{% for page in collections["layout"] %}
+{% for page in collections["history"] %}
 
 - [{{ page.data.title }}]({{ page.url | url }}) – {{ page.data.description }}
 

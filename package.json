@@ -28,7 +28,7 @@
   "sass": "lib/govuk.scss",
   "repository": {
     "type": "git",
-    "url": "https://ctc-trader-p5-prototype.herokuapp.com/.git"
+    "url": "ctc-trader-p5-prototype.herokuapp.com/"
   },
   "scripts": {
     "prebuild": "rimraf public",
