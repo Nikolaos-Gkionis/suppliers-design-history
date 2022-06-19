@@ -1,9 +1,9 @@
 module.exports = function (eleventyConfig) {
   const url = process.env.GITHUB_ACTIONS
-    ? 'https://x-govuk.github.io/govuk-eleventy-plugin/'
+    ? 'https://github.com/Nikolaos-Gkionis/hmrc-11ty/'
     : '/'
   const pathPrefix = process.env.GITHUB_ACTIONS
-    ? '/govuk-eleventy-plugin/'
+    ? '/ncts-design-history/'
     : '/'
 
   // Plugins
@@ -49,8 +49,8 @@ module.exports = function (eleventyConfig) {
   })
 
   // Collections
-  eleventyConfig.addCollection('history', collection =>
-    collection.getFilteredByTag('history')
+  eleventyConfig.addCollection('histories', collection =>
+    collection.getFilteredByTag('histories')
       .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
   )
   eleventyConfig.addCollection('homepage', collection =>
@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'docs',
       output: 'public',
-      history: '../history'
+      layouts: '../layouts'
     },
     pathPrefix
   }
