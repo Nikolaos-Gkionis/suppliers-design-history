@@ -27,12 +27,10 @@
     {% block beforeContent %}{% endblock %}
     <main class="govuk-main-wrapper {{ mainClasses }}" id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
       {% block content %}
-        {% call appArticle() %}
-          {{ content }}
-        {% endcall %}
-      {% endblock %}
+        {{ appProseScope(content) if content }}
 
-      {% include "layouts/shared/related.njk" %}
+        {% include "layouts/shared/related.njk" %}
+      {% endblock %}
     </main>
   </div>
 {% endblock %}

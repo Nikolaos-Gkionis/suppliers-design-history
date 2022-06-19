@@ -1,13 +1,13 @@
 ---
 layout: side-navigation
 order: 3
-title: Design History
+title: Histories
 description: A design history of Phase 5 Discovery and Alpha. It features posts that describe the development of new features, iterations of existing ones.
 tags:
   - homepage
 ---
 
-{% for page in collections["history"] %}
+{% for page in collections["histories"] %}
 
 - [{{ page.data.title }}]({{ page.url | url }}) – {{ page.data.description }}
 
