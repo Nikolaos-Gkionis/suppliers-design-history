@@ -4,6 +4,51 @@ includeInBreadcrumbs: true
 order: 2
 title: Histories
 description: A design history of Phase 5 Discovery and Alpha. It features posts that describe the development of new features, iterations of existing ones.
+paginationHeading: Design History
+pagination:
+  data: histories
+  size: 10
+histories:
+  - url: "/histories/phase-4"
+    data:
+      date: 2021-08-17
+      title: Phase 4 design
+      description: Here are the prototype pages from phase 4.
+  - url: "/histories/phase-5-discovery"
+    data:
+      date: 2021-09-08
+      title: Phase 5 discovery
+      description: Reviewing the phase 5 discovery for NCTS.
+  - url: "/histories/phase-4"
+    data:
+      date: 2021-08-17
+      title: Phase 4 design
+      description: Here are the prototype pages from phase 4.
+  - url: "/histories/phase-5-discovery"
+    data:
+      date: 2021-09-08
+      title: Phase 5 discovery
+      description: Reviewing the phase 5 discovery for NCTS.
+  - url: "/histories/phase-4"
+    data:
+      date: 2021-08-17
+      title: Phase 4 design
+      description: Here are the prototype pages from phase 4.
+  - url: "/histories/phase-5-discovery"
+    data:
+      date: 2021-09-08
+      title: Phase 5 discovery
+      description: Reviewing the phase 5 discovery for NCTS.
+aside:
+  title: NCTS P5 prototype
+  content: |
+    Username: prototype
+    Password: thisisabadpassword
+related:
+  sections:
+    - items:
+        - text: Prototype link
+          href: https://ctc-trader-p5-prototype.herokuapp.com/
 tags:
   - homepage
 ---
@@ -13,52 +58,3 @@ tags:
 - [{{ page.data.title }}]({{ page.url | url }}) – {{ page.data.description }}
 
 {% endfor %}
-
-## Overriding layouts
-
-Layouts are registered with Eleventy by setting the `dir.layouts` key to point to the layout files installed in the package directory:
-
-```js
-const govukEleventyPlugin = require("govuk-eleventy-plugin");
-
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(govukEleventyPlugin);
-
-  return {
-    dataTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk",
-    dir: {
-      layouts: "node_modules/govuk-eleventy-plugin/layouts",
-    },
-  };
-};
-```
-
-If you want to use your own layouts, remove this value and set a value for [`dir.includes`](https://www.11ty.dev/docs/config/#directory-for-includes) (and optionally [`dir.layouts`](<https://www.11ty.dev/docs/config/#directory-for-layouts-(optional)>)).
-
-You can use layouts provided by this plugin as a basis for your own. For example, to show a notification banner at the top of a page, extend the `page` layout:
-
-```njk
-{% raw %}{# Plugin layouts can be loaded from "layouts" #}
-{% extends "layouts/page.njk" %}
-
-{# Load any GOV.UK Frontend components #}
-{% from "govuk/components/notification-banner/macro.njk" import govukNotificationBanner %}
-
-{% block content %}
-  {# Templates can include front matter data #}
-  {{ govukNotificationBanner({
-    text: "This page was last reviewed on " + (reviewed | date("d LLLL y")) + ".
-    It needs to be reviewed again on " + (reviewAgain | date("d LLLL y")) + "."
-  }) if reviewed and reviewAgain }}
-
-  {% call appArticle({
-    header: {
-      title: title | noOrphans
-    }
-  }) %}
-    {{ content }}
-  {% endcall %}
-{% endblock %}{% endraw %}
-```
