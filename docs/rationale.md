@@ -1,5 +1,5 @@
 ---
-layout: side-navigation
+layout: product
 includeInBreadcrumbs: true
 order: 1
 title: Rationale

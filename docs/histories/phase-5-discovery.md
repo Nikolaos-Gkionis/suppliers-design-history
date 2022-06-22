@@ -1,8 +1,12 @@
 ---
 layout: post
 includeInBreadcrumbs: true
-title: Users and Business
+order: 2
+title: Phase 5 Discovery
 description: A repository of user research findings. Usability test videos and Business Analysis models that meet our user needs.
+eleventyNavigation:
+  key: Phase 5 Discovery
+  parent: Histories
 related:
   sections:
     - items:
