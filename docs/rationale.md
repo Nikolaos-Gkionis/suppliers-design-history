@@ -1,6 +1,7 @@
 ---
 layout: side-navigation
-order: 2
+includeInBreadcrumbs: true
+order: 1
 title: Rationale
 description: The rationale behind the New Computerised Trading System. How will the service evolve in Phase 5.
 tags:

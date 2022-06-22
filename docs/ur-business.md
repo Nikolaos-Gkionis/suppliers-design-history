@@ -1,6 +1,7 @@
 ---
-layout: side-navigation
-order: 5
+layout: collection
+includeInBreadcrumbs: true
+order: 3
 title: Users and Business
 description: A repository of user research findings. Usability test videos and Business Analysis models that meet our user needs.
 related:
