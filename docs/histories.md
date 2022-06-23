@@ -2,7 +2,7 @@
 layout: collection
 includeInBreadcrumbs: true
 order: 2
-title: Histories
+title: Design history
 description: A design history of Phase 5 Discovery and Alpha. It features posts that describe the development of new features, iterations of existing ones.
 eleventyNavigation:
   key: Histories

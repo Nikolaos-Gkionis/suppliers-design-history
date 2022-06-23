@@ -23,7 +23,8 @@ eleventyComputed:
     <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ item.url | url }}">Link to the {{ item.data.title | lower }}</a></p>
   </section>
 {% endfor %}
-  <section class="govuk-grid-column-full">
+
+<!--  <section class="govuk-grid-column-full">
     <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
     <h2 class="govuk-heading-m govuk-!-font-size-27">Prototype</h2>
     <p class="govuk-body">The prototype for this service is currently in version-8</p>
@@ -32,3 +33,5 @@ eleventyComputed:
     <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ pkg.repository.url | replace(".git", "") }}">View this prototype</a></p>
   </section>
 </div>
+
+-->
