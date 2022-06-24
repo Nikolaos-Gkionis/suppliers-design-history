@@ -10,8 +10,8 @@ eleventyNavigation:
 related:
   sections:
     - items:
-        - text: Markdown Guide
-          href: https://www.markdownguide.org
+        - text: Discovery artefacts
+          href: https://example.com
 ---
 
 [[toc]]

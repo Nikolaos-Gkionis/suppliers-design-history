@@ -15,31 +15,16 @@ histories:
     data:
       date: 2021-08-17
       title: Phase 4 design
-      description: Here are the prototype pages from phase 4.
+      description: Ecosystem and Service landscape from phase 4.
   - url: "/histories/phase-5-discovery"
     data:
       date: 2021-09-08
       title: Phase 5 discovery
       description: Reviewing the phase 5 discovery for NCTS.
-  - url: "/histories/phase-4"
-    data:
-      date: 2021-08-17
-      title: Phase 4 design
-      description: Here are the prototype pages from phase 4.
-  - url: "/histories/phase-5-discovery"
+  - url: "/histories/pre-task-list"
     data:
       date: 2021-09-08
-      title: Phase 5 discovery
-      description: Reviewing the phase 5 discovery for NCTS.
-  - url: "/histories/phase-4"
-    data:
-      date: 2021-08-17
-      title: Phase 4 design
-      description: Here are the prototype pages from phase 4.
-  - url: "/histories/phase-5-discovery"
-    data:
-      date: 2021-09-08
-      title: Phase 5 discovery
+      title: Pre task-list
       description: Reviewing the phase 5 discovery for NCTS.
 aside:
   title: NCTS P5 prototype
