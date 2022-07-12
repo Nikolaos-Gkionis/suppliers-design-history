@@ -1,17 +1,12 @@
 ---
-layout: post
+layout: page
 includeInBreadcrumbs: true
 order: 1
-title: Phase 4
-description: A repository of user research findings. Usability test videos and Business Analysis models that meet our user needs.
+title: Map
+description: A Service lanscape mapping and an Ecosystem exporation.
 eleventyNavigation:
-  key: Phase 4
+  key: Map
   parent: Histories
-related:
-  sections:
-    - items:
-        - text: Markdown Guide
-          href: https://www.markdownguide.org
 ---
 
 ## Ecosystem / Service landscape
