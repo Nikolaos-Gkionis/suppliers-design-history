@@ -61,3 +61,17 @@ related:
 
 ![A radio group](/assets/pre-task-list/declaration-type.png "The declaration type radio group")
 <br>
+
+- This is an extra question that is only needed if the users select a specific combination of answers previously. Specifically an XI (Northern Ireland) office of departure, a 'normal' procedure type and a 'TIR' declaration type.
+
+![A radio group](/assets/pre-task-list/tir-carnet.png "The extra question")
+<br>
+
+- In the end the users were shown a summary list with links to their answers and a warning that after confirming, they would not be able to amend these previous answers after this point.
+
+![A radio group](/assets/pre-task-list/cya-paragraph.png "The first iteration of the CYA")
+<br>
+
+#### A pain point we discovered
+
+In the end of the pre-task list of questions, you come to a summary page where the users are shown the answers [page](/histories/macro-interactions). they provided.
