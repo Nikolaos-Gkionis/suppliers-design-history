@@ -2,7 +2,7 @@
 layout: collection
 includeInBreadcrumbs: true
 order: 3
-title: Users and Business
+title: User Research
 description: A repository of user research findings and usability test videos.
 related:
   sections:
