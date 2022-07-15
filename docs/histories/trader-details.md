@@ -47,23 +47,62 @@ A text input field requesting the transit holder details is presented to the use
 ![A screenshot](/assets/trader-details/07-contact-name.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/08-contact-number.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/09-representative.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/10-your-eori.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/11-your-name.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/12-your-capacity.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/13-your-number.png "A prototype screenshot")
 <br>
 
-![A screenshot](/assets/trader-details/02-holder-eori-number.png "A prototype screenshot")
+![A screenshot](/assets/trader-details/14-reduced-data.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/15-consignor-eori.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/16-consignor-eori-number.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/17-consignor-name.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/18-consignor-address.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/19-consignor-contact.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/20-consignor-contact-name.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/21-consignor-contact-number.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/22-more-consignees.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/23-consignee-eori-known.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/24-consignee-eori.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/25-consignee-name.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/26-consignee-address.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/trader-details/27-cya.png "A prototype screenshot")
 <br>
