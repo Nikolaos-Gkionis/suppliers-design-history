@@ -16,7 +16,7 @@ related:
   sections:
     - items:
         - text: Prototype link
-          href: https://ctc-trader-p5-prototype.herokuapp.com/homepage
+          href: https://ctc-trader-p5-prototype.herokuapp.com
 ---
 
 ## The user problem
