@@ -111,3 +111,10 @@ A text input field requesting the transit holder details is presented to the use
 
 ![A screenshot](/assets/trader-details/27-cya.png "A prototype screenshot")
 <br>
+
+#### The declaration summary
+
+At the end of the journey the user is then taken back to the declaration summary where they can see that they have completed this section.
+
+![A screenshot](/assets/trader-details/28.png "A screenshot of the declaration summary")
+<br>
