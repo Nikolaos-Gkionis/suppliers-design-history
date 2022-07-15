@@ -13,24 +13,34 @@ pagination:
 histories:
   - url: "/histories/macro-interactions"
     data:
-      date: 2021-08-17
+      date: 2022-07-14
       title: Macro interactions
-      description: A series of different approaches to a single user problem
-  - url: "/histories/map"
+      description: A series of different approaches to a single user problem.
+  - url: "/histories/house-consignments"
     data:
-      date: 2021-08-17
-      title: Map
-      description: Ecosystem and Service landscape from phase 4.
-  - url: "/histories/phase-5-discovery"
+      date: 2022-07-01
+      title: House consignments
+      description: Exploring our riskiest assumption.
+  - url: "/histories/trader-details"
     data:
-      date: 2021-09-08
-      title: Phase 5 discovery
-      description: Reviewing the phase 5 discovery for NCTS.
+      date: 2022-06-30
+      title: Trader details
+      description: The new phase 5 trader details journey.
   - url: "/histories/pre-task-list"
     data:
-      date: 2021-09-08
+      date: 2022-06-21
       title: Pre task-list
-      description: Reviewing the phase 5 discovery for NCTS.
+      description: The first step every user takes to complete a departure declaration.
+  - url: "/histories/the-model"
+    data:
+      date: 2022-05-15
+      title: The Model
+      description: A model of information dependencies and branching used as a guide to an accurate fully functional prototype.
+  - url: "/histories/map"
+    data:
+      date: 2022-06-10
+      title: The Map
+      description: Ecosystem and Service landscape for phase 5.
 aside:
   title: NCTS P5 prototype
   content: |
