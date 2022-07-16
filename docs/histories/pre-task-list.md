@@ -64,10 +64,25 @@ This functionality does not come out of the box in the prototype kit or the desi
 ![A select field](/assets/pre-task-list/office-of-departure-3.png "The office of departures select field")
 <br>
 
-- A different approach to routing, has allowed the needed functionality for the `select`
+Two separate data groups of office are included in the `data.js` file: `officesGB` and `officesNI`. When the user selects one of the 3 NI offices they need to go down a different path. The code block below in the `routes.js` file has allowed this functionality.
 
-![A code snippet](/assets/pre-task-list/routes.png "The code snippet")
-<br>
+```js
+router.post("/office-of-departure", function (req, res) {
+  const selectedOffice = req.session.data.officeOfDeparture;
+
+  const officesNI = [
+    "Belfast EPU XI000142",
+    "Warrenpoint XI005160",
+    "Larne XI005220",
+  ];
+
+  if (officesNI.includes(selectedOffice)) {
+    res.redirect("procedure-type-xi");
+  } else {
+    res.redirect("procedure-type");
+  }
+});
+```
 
 - A radio group that was purposefully vertical, due to long content on the radio buttons
 - This is routed and branches out to divergent paths
