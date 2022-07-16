@@ -135,17 +135,122 @@ router.post("/guarantee-reference", function (req, res) {
 ![A screenshot](/assets/guarantee/06.png "A screenshot of the guarantee sub-journey")
 <br>
 
-The code required to add and remove guarantees from the declaration.
-
-![A code screenshot](/assets/guarantee/routes-2.png "A screenshot of the guarantee sub-journey code")
-<br>
-
 #### The add another feature
 
-At the end of the journey the user is presented with an option to add anothe guarantee to their declaration, this can go up to 9 different guarantees and then the user needs to remove one before adding another.
+At the end of the journey the user is presented with an option to add another guarantee to their declaration, this can go up to 9 different guarantees and then the user needs to remove one before adding another.
 
 ![A screenshot](/assets/guarantee/07.png "A screenshot of the guarantee sub-journey")
 <br>
+
+#### A D.R.Y (A Do not Repeat Yourself)
+
+The code required to add and remove guarantees from the declaration. This code builds an array and indexes the guarantee, every time the user adds another guarantee, the maximum is set to nine. This code will be made part of every other add another pattern required through the prototype in the Routes, Transport, House Consignements and so on.
+
+```js
+router.get("/:index/remove-guarantee", function (req, res) {
+  res.render(path.resolve(__dirname, "remove-guarantee"));
+});
+
+router.post("/:index/remove-guarantee", function (req, res) {
+  let removeGuarantee = req.session.data.removeGuarantee;
+  const guarantees = req.session.data.guaranteeArray || [];
+
+  if (removeGuarantee == "Yes" && guarantees.length) {
+    const deleteIndex = req.params.index - 1;
+    const maxIndex = guarantees.length || 0;
+
+    if (deleteIndex <= maxIndex) {
+      guarantees.splice(deleteIndex, 1);
+
+      req.session.data.guaranteeArray = guarantees;
+      req.session.data.guaranteeCount = guarantees.length;
+    }
+  }
+
+  res.redirect("../add-another-guarantee");
+});
+
+router.get("/:index/check-answers", function (req, res) {
+  const data = req.session.data;
+  const index = parseInt(req.params.index);
+  const guarantees = data.guaranteeArray || [];
+
+  if (!guarantees.length) {
+    return res.redirect("../add-another-guarantee");
+  }
+
+  const guarantee = guarantees[req.params.index - 1] || {};
+
+  req.session.data = {
+    ...data,
+    ...guarantee,
+    editGuarantee: index,
+  };
+
+  res.redirect("../check-answers");
+});
+
+router.post("/check-answers", function (req, res) {
+  const data = req.session.data;
+  const guarantees = data.guaranteeArray || [];
+
+  const guarantee = {
+    guaranteeType: data.guaranteeType,
+    guaranteeReference: data.guaranteeReference,
+    liabilityAmount: data.liabilityAmount,
+    accessCode: "****",
+  };
+
+  if (data.editGuarantee) {
+    guarantees[data.editGuarantee - 1] = guarantee;
+  } else {
+    guarantees.push(guarantee);
+    data.guaranteeArray = guarantees;
+    data.guaranteeCount = guarantees.length;
+  }
+
+  delete data.editGuarantee;
+
+  res.redirect("add-another-guarantee");
+});
+
+router.post("/add-another-guarantee-route", function (req, res) {
+  var sessionData = req.session.data;
+  var guaranteeArray = sessionData.guaranteeArray || [];
+  var guarantee = {
+    id: guaranteeArray.length + 1,
+    guarantee: sessionData.guaranteeType,
+  };
+  guaranteeArray.push(guarantee);
+  sessionData.guaranteeArray = guaranteeArray;
+  sessionData.guaranteeCount = guaranteeArray.length;
+  res.redirect("add-another-guarantee");
+});
+
+router.post("/guarantee-added-tir", function (req, res) {
+  res.redirect("../task-list-3");
+});
+
+router.post("/add-another-guarantee", function (req, res) {
+  delete req.session.data.editGuarantee;
+
+  if (req.session.data.addAnotherGuarantee == "Yes") {
+    res.redirect("guarantee-type");
+  } else {
+    res.redirect("../task-list");
+  }
+});
+
+router.post("/add-another-guarantee", function (req, res) {
+  delete req.session.data.editGuarantee;
+
+  if (req.session.data.guaranteeCount == "9") {
+    res.redirect("../task-list");
+  } else {
+    res.redirect("guarantee-type");
+  }
+});
+```
 
 #### The declaration summary
 
