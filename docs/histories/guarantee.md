@@ -39,6 +39,11 @@ The prototype includes a add/remove functionality in order to allow for more in 
 ![A screenshot](/assets/guarantee/01.png "A screenshot of the guarantee sub-journey")
 <br>
 
+The radio buttons lead to diveregent paths in the rest of the user journey, this can be achieved in the `routes.js` file.
+
+![A code screenshot](/assets/guarantee/routes-1.png "A screenshot of the guarantee sub-journey code")
+<br>
+
 ![A screenshot](/assets/guarantee/02.png "A screenshot of the guarantee sub-journey")
 <br>
 
@@ -52,6 +57,11 @@ The prototype includes a add/remove functionality in order to allow for more in 
 <br>
 
 ![A screenshot](/assets/guarantee/06.png "A screenshot of the guarantee sub-journey")
+<br>
+
+The code required to add and remove guarantees from the declaration.
+
+![A code screenshot](/assets/guarantee/routes-2.png "A screenshot of the guarantee sub-journey code")
 <br>
 
 #### The add another feature

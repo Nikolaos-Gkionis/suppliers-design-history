@@ -24,7 +24,15 @@ related:
           href: https://app.diagrams.net/#G15taz7Mp4fHI6uLJfiki2UtcY08oxmCby
 ---
 
-## Screenshots
+## The start
+
+This is the very start of a departure declaration, this is only 5 to 7 pages long but does affect how the sections ahead will ask for relevant information.
+
+The prototype filters through a `select` of deifferent offices of departures and applies branching based on the user selection.
+
+This functionality does not come out of the box in the prototype kit or the design system, but proved essential, in order to simplify the whole user journey
+
+#### Screenshots
 
 - A static homepage with links to varius journeys
   (A dashboard re-design is planned for Private Beta)
@@ -54,6 +62,11 @@ related:
 <br>
 
 ![A select field](/assets/pre-task-list/office-of-departure-3.png "The office of departures select field")
+<br>
+
+- A different approach to routing, has allowed the needed functionality for the `select`
+
+![A code snippet](/assets/pre-task-list/routes.png "The code snippet")
 <br>
 
 - A radio group that was purposefully vertical, due to long content on the radio buttons
