@@ -26,7 +26,11 @@ related:
 
 ## A sub-journey
 
-A text input field requesting the transit holder details is presented to the users, dependand on previous selections the journey might start on next pages. However, this is the longest possible journey presented in the below screenshots. This subjourney can be up to 27 steps.
+This is new section which combines parts from phase 4 sections and allows the users to provide information about the traders, consignors and consignees for their departure declarations.
+
+Users can go through and skip part of this sub-journey as the questions appear to them.
+
+The prototype includes `if/else` statements to allow the check your answers page to surface only the relevant information provided by the user.
 
 ## Screenshots
 

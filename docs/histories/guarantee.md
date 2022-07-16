@@ -28,7 +28,7 @@ related:
 
 #### The dependencies
 
-This is new section which allows the users to provide information about the guarantees they might need or want to attac h to their departure declarations.
+This is new section which allows the users to provide information about the guarantees they might need or want to attach to their departure declarations.
 
 Users can view a list of different kind of guarantees, and add up to 9 per transit.
 
