@@ -28,7 +28,11 @@ related:
 
 #### The dependencies
 
-At the very start of the user journey, the user is presented of a set of multiple radio buttons. Most of these buttons continue on the path shown below, but a few options take the user to different paths with divergent answers to complete.
+This is new section which allows the users to provide information about the guarantees they might need or want to attac h to their departure declarations.
+
+Users can view a list of different kind of guarantees, and add up to 9 per transit.
+
+The prototype includes a add/remove functionality in order to allow for more in depth research and testing.
 
 ## Screenshots
 
