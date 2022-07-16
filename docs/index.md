@@ -7,8 +7,8 @@ image:
   src: /assets/NCTS-EU-UK-Map.png
   alt: NCTS EU UK map with HMRC logo.
 startButton:
-  href: "https://docs.google.com/presentation/d/1Mha2CB5-lYUafHUuX-QACJVDdPhV7c-_vZWob1Ufd7g/edit#slide=id.g113ede980a4_0_583"
-  text: Alpha deck
+  href: "https://docs.google.com/presentation/d/1rrFulF0oOyZoIyhOoHD5h88ViYKr8QJ9JgwkXs8uWtY/edit#slide=id.p3"
+  text: Design deck
 eleventyComputed:
   title: "{{ pkg.description }}"
   ogImage:
@@ -24,14 +24,11 @@ eleventyComputed:
   </section>
 {% endfor %}
 
-<!--  <section class="govuk-grid-column-full">
+<section class="govuk-grid-column-full">
     <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
     <h2 class="govuk-heading-m govuk-!-font-size-27">Prototype</h2>
-    <p class="govuk-body">The prototype for this service is currently in version-8</p>
+    <p class="govuk-body">The prototype for this service is currently in version-9</p>
     <p class="govuk-body">Username: prototype</p>
     <p class="govuk-body">Password: thisisabadpassword</p>
-    <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ pkg.repository.url | replace(".git", "") }}">View this prototype</a></p>
   </section>
 </div>
-
--->

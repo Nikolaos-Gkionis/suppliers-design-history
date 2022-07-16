@@ -26,7 +26,11 @@ related:
 
 ## A sub-journey
 
-Several methods where explored into making the House consignment sub-journey. Both vertical and horizontal appraches where used. Below is a series of screenshots using the horizontal approach. This sub-journey can end up being a huge amount of pages depending on how many House consignments the user selects, this is set to 999.
+Currently in Phase 4 a user is able to send grouped items to one consignor and consignee. House consignments would allow the user to send multiple grouped items with more than one consignor and consignee within the same declaration. This is sometimes referred to as ‘groupage’.
+
+The research has been around user behaviour and how potentially this would impact the user in their everyday trade. Also obtaining feedback of users expectations around the usage of this new functionality.
+
+This functionality has come from the EU commission and part of the updates for phase 5 considering the operational guidance for member states - ICS2 Operational guidance for Member States 2021.
 
 ## Screenshots
 
