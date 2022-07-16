@@ -41,8 +41,84 @@ The prototype includes a add/remove functionality in order to allow for more in 
 
 The radio buttons lead to diveregent paths in the rest of the user journey, this can be achieved in the `routes.js` file.
 
-![A code screenshot](/assets/guarantee/routes-1.png "A screenshot of the guarantee sub-journey code")
-<br>
+```js
+router.post("/guarantee-type", function (req, res) {
+  const selectedGuarantee = req.session.data.guaranteeType;
+
+  const guaranteeRadio = [
+    "(0) Guarantee waiver",
+    "(1) Comprehensive guarantee",
+    "(2) Individual guarantee",
+    "(4) Flat-rate voucher redirect(guarantee-reference)",
+    "(5) Guarantee waiver",
+    "(9) Individual guarantee with multiple usage",
+    "(J) Guarantee not required for the journey",
+  ];
+
+  if (guaranteeRadio.includes(selectedGuarantee)) {
+    res.redirect("guarantee-reference");
+  } else if (
+    selectedGuarantee == "(8) Guarantee not required for certain public bodies"
+  ) {
+    res.redirect("other-reference");
+  } else if (
+    selectedGuarantee ==
+    "(3) Individual guarantee in cash or other means of payment"
+  ) {
+    res.redirect("other-reference-cash-deposit");
+  } else {
+    res.redirect("check-answers");
+  }
+});
+
+router.post("/guarantee-type-xi", function (req, res) {
+  const selectedGuarantee = req.session.data.guaranteeType;
+
+  const guaranteeRadio = [
+    "(0) Guarantee waiver",
+    "(1) Comprehensive guarantee",
+    "(2) Individual guarantee",
+    "(4) Flat-rate voucher redirect(guarantee-reference)",
+    "(5) Guarantee waiver",
+    "(J) Guarantee not required for the journey",
+  ];
+
+  if (guaranteeRadio.includes(selectedGuarantee)) {
+    res.redirect("guarantee-reference");
+  } else {
+    let guaranteeType = req.session.data.guaranteeType;
+
+    if (
+      guaranteeType == "(8) Guarantee not required for certain public bodies"
+    ) {
+      res.redirect("other-reference");
+    } else if (
+      guaranteeType ==
+      "(3) Individual guarantee in cash or other means of payment"
+    ) {
+      res.redirect("other-reference-cash-deposit");
+    } else res.redirect("check-answers");
+  }
+});
+
+router.post("/guarantee-reference", function (req, res) {
+  const selectedGuarantee2 = req.session.data.guaranteeType;
+
+  const guaranteeRadio2 = [
+    "(0) Guarantee waiver",
+    "(1) Comprehensive guarantee",
+    "(2) Individual guarantee",
+    "(4) Flat-rate voucher redirect(guarantee-reference)",
+    "(9) Individual guarantee with multiple usage (for CTC only)",
+  ];
+
+  if (guaranteeRadio2.includes(selectedGuarantee2)) {
+    res.redirect("access-code");
+  } else {
+    res.redirect("check-answers");
+  }
+});
+```
 
 ![A screenshot](/assets/guarantee/02.png "A screenshot of the guarantee sub-journey")
 <br>
