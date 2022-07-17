@@ -18,13 +18,13 @@ related:
 
 ## Should prototypes have validation?
 
-This has long been a debate among interaction designers and other DDaT staff in government. My personal opinion is that at a minimum, the prototype should be as close to the real service as humanely possible.
+This has long been a debate among interaction designers and other DDaT staff in government. My personal opinion is that at least, the prototype should be as close to the real service as possible.
 
-Yes, there are cases where such hugh fidelity might not be required; having said that if your plan is to add usablitity testing to your user research you have to include different levels of fidelity.
+Yes, there are cases where such high fidelity is not required; having said that if your plan is to add usability testing to your user research you have to include different levels of fidelity.
 
 Branching should be the first level, passing data should be the second, conditional logic should be the third and finally error validation should be the last.
 
-Working on the NCTS phase 5 prototype we have used the `HTML` form validation for empty fields.
+Working on the NCTS phase 5 prototype we have used the `HTML` form validation for empty fields. away. Or, click the Write button and compose something new.
 
 ```HTML
  <form class="form" method="post">
