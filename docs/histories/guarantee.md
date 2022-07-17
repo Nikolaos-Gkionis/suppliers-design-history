@@ -32,7 +32,7 @@ This is new section which allows the users to provide information about the guar
 
 Users can view a list of different kind of guarantees, and add up to 9 per transit.
 
-The prototype includes a add/remove functionality in order to allow for more in depth research and testing.
+The prototype includes an add/remove functionality in order to allow for more in depth research and testing.
 
 ## Screenshots
 
@@ -144,7 +144,7 @@ At the end of the journey the user is presented with an option to add another gu
 
 #### A D.R.Y (A Do not Repeat Yourself)
 
-The code required to add and remove guarantees from the declaration. This code builds an array and indexes the guarantee, every time the user adds another guarantee, the maximum is set to nine. This code will be made part of every other add another pattern required through the prototype in the Routes, Transport, House Consignements and so on.
+The code required to add and remove guarantees from the declaration. This code builds an array and indexes the guarantee, every time the user adds another guarantee, the maximum is set to nine. This code will be made part of every other add another pattern required through the prototype in the Routes, Transport, House Consignments and so on.
 
 ```js
 router.get("/:index/remove-guarantee", function (req, res) {
