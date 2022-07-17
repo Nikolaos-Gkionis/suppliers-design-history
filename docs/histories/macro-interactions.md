@@ -25,7 +25,7 @@ At the very start of the user journey, after 5 to 7 questions the user reaches a
 
 - The first round of user research found that 6 out of 6 users completely missed the context of the 'Before you continue' text.
 - The second round of users 5 out of 6 users missed the 'Warning text'.
-- Finally the 'Important notification banner' has successfuly relayed the information to the users.
+- Finally the 'Important notification banner' has successfully relayed the information to the users.
 
 Focusing on a 'macro' interaction, allowed the team to provide the appropriate solution in order to achieve a 100% success task completion rate.
 
