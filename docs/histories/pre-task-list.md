@@ -28,9 +28,9 @@ related:
 
 This is the very start of a departure declaration, this is only 5 to 7 pages long but does affect how the sections ahead will ask for relevant information.
 
-The prototype filters through a `select` of deifferent offices of departures and applies branching based on the user selection.
+The prototype filters through a select of different offices of departures and applies branching based on the user selection.
 
-This functionality does not come out of the box in the prototype kit or the design system, but proved essential, in order to simplify the whole user journey
+This functionality does not come out of the box in the prototype kit or the design system, but proved essential, to simplify the whole user journey.
 
 #### Screenshots
 
