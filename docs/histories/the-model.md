@@ -43,15 +43,20 @@ All have or are under the process of having a complete model
 
 - The simplest of all the models, is the Pre-task list.
 
-![A draw.io model](/assets/the-model/model-1.png "The smallest model")
+![A draw.io model](/assets/the-model/pre-task-list.png "The smallest model")
 <br>
 
-- The second of all the models in simplicity, is the Trader details.
+- The second of all the models in simplicity, is the Guarantee journey.
 
-![A draw.io model](/assets/the-model/model-2.png "The second model")
+![A draw.io model](/assets/the-model/guarantee-journey.png "The second model")
 <br>
 
-- The longest of all the models, is the House consignments.
+- The second of all the models in length, is the Trader details.
 
-![A draw.io model](/assets/the-model/model-3.png "The longest model")
+![A draw.io model](/assets/the-model/trader-details.png "The second model")
+<br>
+
+- The model with the most complexity out of all the models, is the Routes details.
+
+![A draw.io model](/assets/the-model/route-details.png "The longest model")
 <br>
