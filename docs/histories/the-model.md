@@ -26,7 +26,7 @@ related:
 
 ## The business analysis model
 
-As this is a live service enetering a new phase, new features and different journeys are being developed by the business and our BA has provided a model, in a schematics draw.io model. This includes all the relevant branching and allows for the creation of accurate realistic prototyping. Which in turn enhances the usability testing by providing a prototype so close to the service.
+As this is a live service entering a new phase, new features and different journeys are being developed by the business and our BA has provided a model, in a schematics draw.io model. This includes all the relevant branching and allows for the creation of accurate realistic prototyping. Which in turn enhances the usability testing by providing a prototype so close to the service.
 
 Every sub-journey has a model of each own:
 
@@ -37,7 +37,7 @@ Every sub-journey has a model of each own:
 - Routes
 - Transport
 
-All have or are under the process of having a complete model
+All sub-journeys have or are under the process of having a complete model.
 
 ## Screenshot
 
