@@ -34,7 +34,7 @@ This functionality has come from the EU commission and part of the updates for p
 
 #### Screenshots
 
-- A radio button option that gives the user the ability to select fromm the start if the House consignments will be more than one.
+- A radio button option that gives the user the ability to select from the start if the House consignments will be more than one.
 
 ![A radio input](/assets/house-consignments/01.png "The first branching radio input page")
 <br>
