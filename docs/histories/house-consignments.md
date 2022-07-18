@@ -80,6 +80,74 @@ This functionality has come from the EU commission and part of the updates for p
 ![A screenshot](/assets/house-consignments/15.png "A prototype screenshot")
 <br>
 
+![A screenshot](/assets/house-consignments/31.png "A prototype screenshot")
+<br>
+
+If the users select to add another House consignment, the go through a slightly different journey up to 999 times.
+
+![A screenshot](/assets/house-consignments/32.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/33.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/34.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/35.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/36.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/37.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/38.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/39.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/40.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/41.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/42.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/43.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/44.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/45.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/46.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/47.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/48.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/49.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/50.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/51.png "A prototype screenshot")
+<br>
+
+![A screenshot](/assets/house-consignments/52.png "A prototype screenshot")
+<br>
+
 #### The declaration summary
 
 At the end of the journey the user is then taken back to the declaration summary where they can see that they have completed this section.
