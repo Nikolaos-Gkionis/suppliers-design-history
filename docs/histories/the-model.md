@@ -60,3 +60,8 @@ All sub-journeys have or are under the process of having a complete model.
 
 ![A draw.io model](/assets/the-model/route-details.png "The longest model")
 <br>
+
+- And finally the longest of all the models is House Consignments.
+
+![A draw.io model](/assets/the-model/House-Consignment.png "The longest model")
+<br>
