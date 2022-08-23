@@ -11,6 +11,11 @@ pagination:
   data: histories
   size: 10
 histories:
+  - url: "/histories/dashboard-design"
+    data:
+      date: 2022-08-23
+      title: Dashboard design
+      description: A/B testing dashboard variants for save and retrieve functionality.
   - url: "/histories/validation"
     data:
       date: 2022-07-15
