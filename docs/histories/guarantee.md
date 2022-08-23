@@ -39,7 +39,7 @@ The prototype includes an add/remove functionality in order to allow for more in
 ![A screenshot](/assets/guarantee/01.png "A screenshot of the guarantee sub-journey")
 <br>
 
-The radio buttons lead to diveregent paths in the rest of the user journey, this can be achieved in the `routes.js` file.
+The radio buttons lead to divergent paths in the rest of the user journey, this can be achieved in the `routes.js` file.
 
 ```js
 router.post("/guarantee-type", function (req, res) {

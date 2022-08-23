@@ -21,7 +21,7 @@ related:
 
 ## The user problem
 
-At the very start of the user journey, after 5 to 7 questions the user reaches a point of no return. A place where if they continue they cannot ammend the previous confirmed information they have provided for their declaration of transit.
+At the very start of the user journey, after 5 to 7 questions the user reaches a point of no return. A place where if they continue they cannot amend the previous confirmed information they have provided for their declaration of transit.
 
 - The first round of user research found that 6 out of 6 users completely missed the context of the 'Before you continue' text.
 - The second round of users 5 out of 6 users missed the 'Warning text'.
@@ -36,7 +36,7 @@ Focusing on a 'macro' interaction, allowed the team to provide the appropriate s
 ![A homepage](/assets/pre-task-list/cya-paragraph.png "The first iteration")
 <br>
 
-- The second iteration had a 'Warning text' in bold and with the exlamation mark icon
+- The second iteration had a 'Warning text' in bold and with the exclamation mark icon
 
 ![A text input](/assets/pre-task-list/cya-warning.png "The second iteration")
 <br>

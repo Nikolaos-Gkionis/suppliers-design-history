@@ -34,7 +34,7 @@ The prototype includes `if/else` statements to allow the check your answers page
 
 ## Screenshots
 
-- A radio button option that creates the first branching posibilities that will direct the next step
+- A radio button option that creates the first branching possibilities that will direct the next step
 
 ![A radio input](/assets/trader-details/01-holder-eori.png "The first branching radio input page")
 <br>

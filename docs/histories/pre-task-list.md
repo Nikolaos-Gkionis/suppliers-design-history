@@ -34,7 +34,7 @@ This functionality does not come out of the box in the prototype kit or the desi
 
 #### Screenshots
 
-- A static homepage with links to varius journeys
+- A static homepage with links to various journeys
   (A dashboard re-design is planned for Private Beta)
 
 ![A homepage](/assets/pre-task-list/homepage.png "The current homepage")
@@ -90,7 +90,7 @@ router.post("/office-of-departure", function (req, res) {
 ![A radio group](/assets/pre-task-list/procedure-type.png "The procedure type radio group")
 <br>
 
-- This is a dynamic radio group that can have 4 or 5 options depending on previous choises
+- This is a dynamic radio group that can have 4 or 5 options depending on previous choices
 
 ![A radio group](/assets/pre-task-list/declaration-type.png "The declaration type radio group")
 <br>

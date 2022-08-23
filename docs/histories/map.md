@@ -3,7 +3,7 @@ layout: page
 includeInBreadcrumbs: true
 order: 1
 title: Map
-description: A Service lanscape mapping and an Ecosystem exporation.
+description: A Service landscape mapping and an Ecosystem exploration.
 eleventyNavigation:
   key: Map
   parent: Histories
