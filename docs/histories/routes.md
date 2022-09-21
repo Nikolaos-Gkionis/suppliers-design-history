@@ -136,11 +136,6 @@ The complexity of this specific journey in terms of the amount of 'add another' 
 
 - A screenshot of the sub-journey in the prototype
 
-![A screenshot](/assets/routes/20.png "A screenshot of the sub-journey")
-<br>
-
-- A screenshot of the sub-journey in the prototype
-
 ![A screenshot](/assets/routes/21.png "A screenshot of the sub-journey")
 <br>
 
