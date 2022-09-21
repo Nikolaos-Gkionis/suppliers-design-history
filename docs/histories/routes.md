@@ -26,7 +26,7 @@ related:
 
 ## The sub-journey
 
-This is a very comp[lex information collection sub-journey where the user is taken through an explicit route for their goods journey, declaring all the possible offices that the goods will travel through Europe in order to reach the UK.
+This is a very complex information collection sub-journey where the user is taken through an explicit route for their goods journey, declaring all the possible offices that the goods will travel through Europe in order to reach the UK.
 
 The prototype filters through a select of different offices of transit and exit and the countries they geographically belong to.
 
