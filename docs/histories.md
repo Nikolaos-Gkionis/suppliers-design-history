@@ -11,6 +11,11 @@ pagination:
   data: histories
   size: 10
 histories:
+  - url: "/histories/routes"
+    data:
+      date: 2022-09-21
+      title: Routes sub-journey
+      description: A complex sub-journey with many variable paths and dependencies.
   - url: "/histories/dashboard-design"
     data:
       date: 2022-08-23

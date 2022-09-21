@@ -3,7 +3,7 @@ layout: post
 includeInBreadcrumbs: true
 order: 1
 title: Pre task-list
-description: A series of prototype screenshots, including summary page text decoration varinats
+description: A series of prototype screenshots, including summary page text decoration variants
 eleventyNavigation:
   key: Pre task-list
   parent: Histories
