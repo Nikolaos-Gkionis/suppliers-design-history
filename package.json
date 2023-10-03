@@ -1,7 +1,7 @@
 {
   "name": "govuk-eleventy-plugin",
   "version": "2.2.0",
-  "description": "A Design history for the Phase 5 of the New Computerised Transit System (NCTS)",
+  "description": "A Design history for the Supplier's Information web application",
   "keywords": [
     "govuk",
     "government",
@@ -15,7 +15,7 @@
   "contributors": [
     {
       "name": "Nikolaos Gkionis",
-      "url": "https://nikolaos-gkionis.herokuapp.com"
+      "url": "https://si-prototype-616667192c06.herokuapp.com/"
     }
   ],
   "license": "MIT",
@@ -42,14 +42,14 @@
     "coverage": "c8 ava"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "deepmerge": "^4.2.2",
     "govuk-frontend": "^4.1.0",
-    "govuk-prototype-components": "^0.2.0",
+    "govuk-prototype-components": "^0.1.5",
     "luxon": "^2.1.1",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^8.4.1",

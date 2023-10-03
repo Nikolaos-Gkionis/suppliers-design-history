@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(require('./index.js'), {
-    brandColour: '#28a',
+    brandColour: '#9b1b46',
     fontFamily: 'system-ui, sans-serif',
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true',
@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
       touch: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
     },
     ogImage: '/assets/opengraph-image.png',
-    homeKey: 'NCTS Design History',
+    homeKey: 'SI Design History',
     parentSite: {
       url: '',
       name: ''
@@ -24,8 +24,8 @@ module.exports = function (eleventyConfig) {
     pathPrefix,
     url,
     header: {
-      organisationLogo: 'crown',
-      organisationName: 'NCTS',
+      organisationLogo: 'royal-arms',
+      organisationName: 'CCS',
       productName: 'Design History',
       search: {
         indexPath: '/search.json',

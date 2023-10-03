@@ -3,7 +3,7 @@ layout: collection
 includeInBreadcrumbs: true
 order: 2
 title: Design history
-description: A design history of Phase 5 Discovery and Alpha. It features posts that describe the development of new features, iterations of existing ones.
+description: Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sagittis ornare diam id mollis.
 eleventyNavigation:
   key: Histories
 paginationHeading: Design History
