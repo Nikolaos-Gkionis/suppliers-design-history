@@ -6,9 +6,6 @@ description:
 image:
   src: /assets/CCS-LOGO.PNG
   alt: NCTS EU UK map with HMRC logo.
-startButton:
-  href: "https://docs.google.com/presentation/d/1rrFulF0oOyZoIyhOoHD5h88ViYKr8QJ9JgwkXs8uWtY/edit#slide=id.p3"
-  text: Design deck
 eleventyComputed:
   title: "{{ pkg.description }}"
   ogImage:
@@ -32,3 +29,11 @@ eleventyComputed:
     <a href="https://si-prototype-616667192c06.herokuapp.com/" class="govuk-link govuk-heading-s" >Supplier's information prototype</a>
   </section>
 </div>
+
+<!-- Line 9 front matter
+
+startButton:
+  href: "https://docs.google.com/presentation/d/1rrFulF0oOyZoIyhOoHD5h88ViYKr8QJ9JgwkXs8uWtY/edit#slide=id.p3"
+  text: Design deck
+
+-->

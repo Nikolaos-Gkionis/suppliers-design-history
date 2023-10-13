@@ -25,8 +25,8 @@ module.exports = function (eleventyConfig) {
     url,
     header: {
       organisationLogo: 'royal-arms',
-      organisationName: 'CCS',
-      productName: 'Design History',
+      organisationName: '',
+      productName: 'Supplier information design history',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
