@@ -4,7 +4,7 @@ layout: product
 includeInBreadcrumbs: true
 description:
 image:
-  src: /assets/london-skyline.jpg
+  src: /assets/CCS-LOGO.PNG
   alt: NCTS EU UK map with HMRC logo.
 startButton:
   href: "https://docs.google.com/presentation/d/1rrFulF0oOyZoIyhOoHD5h88ViYKr8QJ9JgwkXs8uWtY/edit#slide=id.p3"
