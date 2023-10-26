@@ -3,7 +3,7 @@ layout: collection
 includeInBreadcrumbs: true
 order: 2
 title: Design histories
-description: Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sagittis ornare diam id mollis.
+description: Design histories are posts about the evolution and the design decisions of the service. They are smaller than case studies and provide a snapshot on a section of the whole service.
 eleventyNavigation:
   key: Histories
 paginationHeading: Design Histories

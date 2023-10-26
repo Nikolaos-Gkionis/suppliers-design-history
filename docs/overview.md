@@ -3,117 +3,80 @@ layout: product
 includeInBreadcrumbs: true
 order: 1
 title: Service Overview
-description: Neque porro quisquam est qui dolorem ipsum porro quisquam est qui dolorem ipsum
+description: The Supplier Information Service (formerly RoS) will be a digital online service that enables Organisations and Individuals (Sole Traders) to enter key information about their supplier entity.
 tags:
   - homepage
 ---
 
-## Neque porro quisquam est qui dolorem ipsum
+### Contents
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Sed dignissim mi purus, ut volutpat neque laoreet a.
-- Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-- Praesent sagittis ornare diam id mollis. Phasellus convallis arcu quam, vel imperdiet purus imperdiet et.
-- Mauris euismod dolor vitae nulla vehicula lobortis. Nunc diam nulla, sollicitudin id quam quis, aliquet eleifend diam.
-- Curabitur faucibus lacinia tellus. Fusce accumsan nibh non tempor facilisis.
-- Maecenas dapibus ut sapien ac fringilla. Sed massa diam, pharetra vitae odio vitae, ullamcorper accumsan nibh.
-- Sed nunc ante, feugiat sed ante id, hendrerit tempus sapien.
+[- Covering Note](#chapter-1)
+[- What is this Service?](#chapter-2)
+[- What are we delivering?](#chapter-3)
+[- Vision](#chapter-4)
+[- Problem statement and Goal](#chapter-5)
+[- What is out of Scope for MVP](#chapter-6)
+[- Success Criteria](#chapter-7)
+[- Milestones (Dates etc.)](#chapter-8)
 
-## Neque porro quisquam est qui dolorem ipsum
+## Covering Note <a id="chapter-1"></a> 
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Sed dignissim mi purus, ut volutpat neque laoreet a.
-- Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-- Praesent sagittis ornare diam id mollis. Phasellus convallis arcu quam, vel imperdiet purus imperdiet et.
-- Mauris euismod dolor vitae nulla vehicula lobortis. Nunc diam nulla, sollicitudin id quam quis, aliquet eleifend diam.
-- Curabitur faucibus lacinia tellus. Fusce accumsan nibh non tempor facilisis.
+This instruction sets out all of the design history made during production of the of the “Supplier Information” (formally the “Register of Suppliers”) part of the Digital Platform, on which information about public procurement will be shared as the result of a new legislative regime, expected to come into force in October 2024.  It is intended to set out sufficient detail so that the GDS assessment team who may wish to assess the design of this component are able to see the design history showing the changes made and the reasons behind the change e.g. as a result of specific user feedback obtained by the wider team from key stakeholders.
 
-NCTS service users:
+## What is This Service <a id="chapter-2"></a> 
 
-- mainly traders who move goods
-- Agents
-- third party software developers
+The service is known as the  “Supplier Information” (formally the “Register of Suppliers”) and is part of the Digital Platform, on which information about public procurement will be shared as the result of a new legislative regime, expected to come into force in October 2024.
 
-Example of transit movement - **Switzerland > France (EU) > UK**
+This Supplier Information component was originally set out in the Green Paper on Transforming Public Procurement (TPP), published in December 2020 as the “register of suppliers”. It has evolved into two parts of the Central Digital Platform of TPP - identifiers and Supplier Information (formerly RoS).
 
-## Why are we delivering Phase 5? (MASP)
+## What are We Delivering <a id="chapter-3"></a> 
 
-- The New Computerised Transit System (NCTS) is not actually a new system.
-- NCTS phase 5 is part of a programme of planned changes under CTC to the way Transit continues to operate for all contracting parties.
-- Under the current Northern Ireland Protocol (NIP), the UK has agreed to remain aligned with the EU customs legislation – the Union - - - Customs Code (UCC).
-- If HMRC do not implement Phase 5 by Nov 2023, this means that the UK would not be able to offer the transit procedure to customers.
+The Supplier Information Service (formerly RoS) will be a digital online service that enables Organisations and Individuals (Sole Traders) to enter key information about their supplier entity, so that this information can subsequently be provided to Buyers and E-Senders for use alongside any bid information the supplier separately makes available to Buyers and/or E-Senders in respect to procurement/s.  It is also intended to be a one stop shop for suppliers, providing them with the ability to maintain a record of their supplier details in one central repository thus saving them the effort of having to provide this information from scratch along with any procurement they decide to bid for.
 
-## What are the headline changes that are being introduced?
+The Service will enable the re-use of supplier information to be controlled by the supplier who after viewing and amending their supplier data, can choose to:
 
-- Create a new declaration that is in line with the UCC data requirements i.e. changes to messages with new data fields being added.
-- Introduction of Office of incident
-- Provide the ability to amend pre-lodged declarations
-- Harmonisation of rejection messages
-- Amend control results and codes
-- The retainment of existing NCTS Phase 4 functionality not specifically changed by Phase 5.
-- There are 2 NCTS 5 core (GB and NI) and each one needs to be upgraded to phase 5.
+1. be provided with a unique code that they can share with a Buyer and/or E-Sender. This code would then enable the Buyer and/or E-Sender to access the suppliers information.
+2. Be provided with a download of the suppliers information in electronic form for them to then share with a Buyer and/or E-Sender.
 
-### Out of scope
+## Vision <a id="chapter-4"></a> 
 
-- Introduction of communication between NCTS and AES for indirect exports relating to NI only
-- Welsh language translation
+The new regime will span the whole procurement lifecycle, from the first identification of the potential to buy, to the end of the contract, there are touchpoints for transparency enhancement.
 
-## What are the consequences of none delivery?
+These touchpoints (or “notices”), are set out in legislation and required in certain situations.  They are constructed such that information is shared publicly to allow procurement activity to take place in as transparent a way as is possible, noting always the constraints around commercial sensitivity and security.
 
-- If not delivered by 30 November 2023, the UK (both GB & NI services) will not be able to use CTC Transit.
-- Critical risk to both the UK’s international reputation and our ability to maintain the flow of goods across the border for both GB and NI.
-- Incompatibility between NCTS in the UK, EU and other CTC members means UK would not be able to offer transit until delivery is complete.
-- Failure to deliver against our CTC obligations in GB, and our Union Customs Code requirements in NI would be a public failure of the UK to comply with our international obligations and be in breach of the Northern Ireland Protocol.
-- Only possible contingency would be to negotiate a further extension with the European Commission, EU MS and all other CTC members.
-- There is no guarantee that such an extension would be granted.
-- If there is a hard stop to Transit, Traders and hauliers will face massive impact due to adjusted business models for delayed accounting in NCTS and lack of formal procedures at frontiers.
-- Instant cash flow hit to businesses with Trade bodies likely to be extremely unhappy.
-- UK ports will be critically impacted because everything would have to go through formal import procedure. No physical capacity at ports to hold goods so they would be blocked on day 1.
-- This impacts societally and in public health and welfare terms as it carries the strong likelihood of food and pharmaceutical shortages. Significant reputational damage to HMRC and the UK Government.
+These notices will number many tens of thousands in each financial year and hundreds of billions of pounds of spend.  In 2022, there were more than 17,200 award notices published under the existing regimes for above threshold spend.
 
-## Vision
+The award notice is just one notice in a scheme that has 14.  It is likely that the number of notices to be published above threshold will number far in excess of 100,000 in any given year.  When below threshold notices are added, it is very clear that this is a significant amount of data on public procurement.
 
-- An online service enabling the UK to manage the transportation of goods in and out of Great Britain, in line with the Common Transit Convention (CTC).
-- The service will replace the existing NCTS Phase 4 service with new features that will improve traders and software developers experience.
+This data will all be published or held on the central digital platform, of which the Supplier Information component is an integral part.
 
-## Problem Statement
+ ## Problem Statement and Goal <a id="chapter-5"></a> 
 
-Provide a way for traders and agents to submit NCTS 5 compliant declarations and notifications. This must take into account any message changes within the technological constraints. This solution will explore existing issues and pain points. Third-party software developers must be able to integrate their software with this solution.
+ **Legislation**
 
-## Goal
+The main driver for change is new primary and secondary legislation. The secondary legislation sets out what compliance with the law looks like for contracting authorities.
 
-To ensure that companies can continue to declare and process transit movements in the UK 'beyond the hard deadline at the end of November 2023'.
+The regulations are currently being subject to a public consultation, which will run from 17th July to 25th August 2023. There will then follow a period of consolidation and review by the cabinet office and a government response will be issued, followed by a write round. The final stage will be to lay the regulations in the house and subject them to the affirmative parliamentary process. The regulations are subject to change until they are made.
 
-## Success criteria
+The target for the regulations to be made is March 2024 and the commencement of the regulations and launch of the new procurement regime and digital platform is October 2024.
 
-The products facilitate the meeting of their primary goal: To ensure that companies can continue to declare and process transit movements in the UK beyond the hard deadline at the end of 2023.
+ **Policy**
 
-3rd party developers are given enough support and information (within reasonable timescales) to create and deliver their software products.
+A second driver for is policy. There are many requirements relating to the Supplier Information component of the central digital platform that are non-legislative and we intend those to be driven by policy, now or in the future.
 
-Comms metrics: Communications to 3rd party developers need to be timely, useful and 2 way (based upon lessons learnt from phase 4).
+## Out of Scope <a id="chapter-6"></a> 
 
-Technical metrics: The api (and in turn the wider components/platform) can accommodate the projected amount of traffic and size of messages for phase 5.
+To be completed
 
-Technical Metrics: The products must be well built to functional and non-functional requirements and be stable, scalable, maintainable, and updatable
+**Success Criteria** <a id="chapter-7"></a> 
 
-Comms metrics: Information and content on dev hub needs to be easy to find, understandable, accessible and helpful to users.
 
-User satisfaction metrics: The project should be able to gauge, capture and measure user satisfaction data and iterate to improve the products when possible.
+ **Delivery of the Benefits of Supplier Information** <a id="chapter-8"></a> 
 
-Support metrics: There are clear, and functioning lines of support for the products (and the developers/users) to restore services.
 
-User Satisfaction Metrics: Any periods of transition (4 to 5) should accommodate traders ensuring they can continue their business.
+Benefits being tracked across the TPP regime change, for Supplier Information include:
 
-## High level milestones
-
-- Alpha Phase - 01/3/22- 03/5/22
-- Beta Development - 4/5/22 - 31/10/23
-- Private Beta Phase - 01/11/23 - 30/11/23 \*
-- Public Beta Phase (LID) - 30/11/23 onwards \*\*
-- Web FE Deployment into Production- October 2022 to support 1st code drop E2E Test Phase
-- Web FE Deployment into Production- Nov End 2023
-- API (small messages) Deployment into Test Support Environment - October 2022
-- API (Large messages) deployment into Trader Test environment - March 2023
-
-  \* The private beta phase is dependent on confirmation that a transitional approach is possible
-  \*\* This date of 30/11/2023 is an immovable deadline
+1. Reducing duplication for suppliers inputting commonly used procurement data.
+2. Supporting greater consistency and linkage across the procurement lifecycle using identifiers.
+3. The creation of policy-driven databases for the additional modules which will replace manual data collection and improve data capture.
+4. Improvements to government digital capability in the procurement lifecycle, ideally using APIs to connect datasets and users.
