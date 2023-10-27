@@ -2,7 +2,6 @@
 layout: post
 includeInBreadcrumbs: true
 order: 1
-title: Start Page
 description: Creating a 'Start a service' page for the Suppliers information service
 eleventyNavigation:
   key: Start
@@ -18,32 +17,35 @@ related:
           href: https://si-prototype-v2-28b848ff1dde.herokuapp.com/
 ---
 
-#### Reason behind change 
+## Creating Start Page
 
-User Feedback on Prototype Version 1.0 was noted, and summarised as follows:
+### A Response to User Feedback
 
-Some users expressed confusion when faced with certain questions, indicating a need for additional contextual information (aka Hint Text) to help them understand what is being asked. This was particularly important because there was a common concern among users about the accuracy of the data they provided.
+User feedback is a design's true north, guiding improvements. In the case of Prototype Version 1.0, users expressed concerns about the clarity of certain questions, indicating a need for additional contextual information, often referred to as Hint Text. This was particularly important because users had genuine concerns about the accuracy of the data they provided.
 
+### Providing Clarity through Context
 
-#### Description
+In response to these insightful user comments, we embarked on a journey of refinement. Our mission? To make sure users had the context they needed to navigate the system with confidence. In order to meet the user needs and policy intent. 
 
-The team redesigned the prototype to address the concern users raised regarding wanting more context, as follows:
+The primary change was to the opening screen. Here, the team provided a broader contextual explanation of why users were being asked to enter supplier information, what type of information was needed, and how this information would be used. Importantly, this included highlighting the benefits to users and their organisations. Additionally, all screens where additional context seemed necessary were refined. These refinements were based on both user-expressed concerns and observations of areas where users tended to spend more time than on other screens.
 
-The team added more context on the opening screen, in order to provide a wider contextual explanation of why the users needed to enter supplier information, what type of information was to be entered and how this information would be used.  This included the benefit to themselves or their organisation.  In addition to this, all screens where further context appeared to be necessary, were enhanced.  This was determined from user-expressed concerns and/or from witnessing which areas resulted in users delaying their data entry for a longer amount of time than on other screens.
+**Before the Enhancement**
 
-#### Screenshots
+![Before Enhancement](/assets/start/1.png)
 
-The initial screen prior to enhancement contained no context or introductory text.
+The initial screen lacked any context or introductory text, which resulted in confusion among users.
 
-- A screenshot of the earlier start page in the prototype
+**After the Enhancement**
 
-![A screenshot](/assets/start/1.png "A screenshot of the initial start page")
-<br>
+![After Enhancement](/assets/start/2.png)
 
-Following enhancement to reflect user feedback, the initial screen contained considerably more context and other useful introductory text.
+Post-enhancement, the initial screen featured considerably more context and other useful introductory text, providing users with a clearer understanding of the purpose and importance of the information they were providing. Along with advise on what they can use this service for.
 
+### A User-Centred Approach
 
-- A screenshot of the address replicator in the prototype
+Every service needs a start page that  give the user just enough information to help them understand what the service does and whether it will meet their need . The newly created 'start page' stands as a testament to the power of user feedback in shaping design. It underscores the team's dedication to improving user experiences and ensuring that users are equipped with the knowledge they need to make informed decisions.
 
-![A screenshot](/assets/start/2.png "A screenshot of the new start page")
-<br>
+### Next steps
+
+As we progress in our design journey, we are inviting users within and without groups, to provide feedback on our start page and iterate as needed.
+

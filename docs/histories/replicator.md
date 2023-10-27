@@ -2,7 +2,6 @@
 layout: post
 includeInBreadcrumbs: true
 order: 2
-title: Address replicator 
 description: Enhancement to enable address reuse, thus saving time and improving accuracy.
 eleventyNavigation:
   key: Replicator
@@ -17,39 +16,42 @@ related:
         - text: Prototype link
           href: https://si-prototype-v2-28b848ff1dde.herokuapp.com/
 ---
+## Address replicator
 
-#### Reason behind change 
+User feedback serves as a compass for innovation and improvement. Prototype Version 1.0 faced an important evolution prompted by users' needs, which we now refer to as the Address Replicator.
 
-User Feedback on Prototype Version 1.0 was noted, and summarised as follows:
+### A Response to User Feedback
 
-Users are requesting a feature that allows them to easily reuse addresses they have previously inputted within the user journey. This would streamline the process of filling out forms by reducing the need to type out the same address information multiple times.
+The Address Replicator emerged in response to users' practical desire to simplify the process of entering addresses during their user journey. They wished to eliminate the repetitive task of manually typing the same address information repeatedly.
 
-#### Description
+### Streamlining the User Experience
 
-The team redesigned the prototype where users were asked to enter the registered and postal addresses as follows:
+To cater to this user feedback, the team took deliberate steps to enhance the user experience and reduce the tedium of address entry. The solution was elegantly straightforward: the introduction of a new screen thoughtfully integrated into the user journey.
 
-To improve the user experience and address feedback provided, an additional screen was added in order to streamline the process of filling out forms by reducing the need to type out the same address information multiple times.
-Prior to the user being asked to enter their postal address, a newly added screen enabled users to re-use the previously entered Registered Address value, before being asked to enter the Postal Address values manually.
+**Before the Enhancement**
 
-#### Screenshots
+![Before Enhancement](/assets/replicator/1.png)
 
-The Screen for entering postal address prior to enhancement was not offering an address reuse option
+In the initial version, the Postal Address screen lacked an address reuse option, necessitating manual entry, which was less than ideal.
 
-- A screenshot of the Suppliers' address in the prototype
+**After the Enhancement**
 
-![A screenshot](/assets/replicator/1.png "A screenshot of the prototype")
-<br>
+![After Enhancement](/assets/replicator/2.png)
 
-Following enhancement, the prototype screens for entering postal address  offered an address reuse option
+With the enhancement, the Postal Address screen was substantially improved with an address reuse option. Users could now expedite the process by selecting their previously entered Registered Address.
 
-- A screenshot of the address replicator in the prototype
+**The End Result**
 
-![A screenshot](/assets/replicator/2.png "A screenshot of the prototype")
-<br>
+![End Result](/assets/replicator/3.png)
 
-The user then skipped the address form and the boolean question and simply came back to the Basic Information page with the contact address populated with the previously entered address.
+The introduction of the Address Replicator created a seamless user experience where users could conveniently reuse their Registered Address, reducing the need for repetitive manual entry and streamlining the form-filling process.
 
-- A screenshot of the Basic information with the address repeated.
+### A Conclusion in Continual Improvement
 
-![A screenshot](/assets/replicator/3.png "A screenshot of the prototype")
-<br>
+The Address Replicator showcases the tangible benefits of listening to user feedback and integrating it into the design process. It's a testament to the team's dedication to enhancing software functionality and user experience.
+
+As we progress on our design journey, let's remain receptive to user insights, for they are the guiding light in creating applications that truly meet users' needs.
+
+### Next steps
+
+Furthermore, we intend in future iterations to include a postcode search functionality for UK addresses. Thus, increasing the ease of use for the service and reducing the steps that users have to take to provide addresses in their end to end journey.
