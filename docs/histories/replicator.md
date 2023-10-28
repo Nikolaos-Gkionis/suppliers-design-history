@@ -56,3 +56,5 @@ As we progress on our design journey, let's remain receptive to user insights, f
 ### Next steps
 
 Furthermore, we intend in future iterations to include a postcode search functionality for UK addresses. Thus, increasing the ease of use for the service and reducing the steps that users have to take to provide addresses in their end to end journey.
+
+<a href="/histories" class="govuk-back-link">Back</a>

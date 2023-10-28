@@ -49,3 +49,4 @@ Every service needs a start page that  give the user just enough information to 
 
 As we progress in our design journey, we are inviting users within and without groups, to provide feedback on our start page and iterate as needed.
 
+<a href="/histories" class="govuk-back-link">Back</a>

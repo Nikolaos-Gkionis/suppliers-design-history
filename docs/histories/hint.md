@@ -40,3 +40,5 @@ Following the enhancement, the screens were enhanced to include more hint text. 
 ### Next steps
 
 The Version 2 of the prototype has added a lot of context with hint text to those certain part of the journey that users faced most clarity issues. In Version 3 we are going to revisit these point and any new pain points that might come up as a result.
+
+<a href="/histories" class="govuk-back-link">Back</a>

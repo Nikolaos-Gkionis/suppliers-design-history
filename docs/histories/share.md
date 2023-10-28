@@ -47,4 +47,4 @@ Post-enhancement, the screen had a noticeable transformation. It was relabeled a
 
 “Share your data” underscores the importance of listening to user feedback and acting upon it. It's a demonstration of the team's dedication to enhancing the user experience and ensuring that users have a crystal-clear understanding of the download and share options at their disposal.
 
-
+<a href="/histories" class="govuk-back-link">Back</a>

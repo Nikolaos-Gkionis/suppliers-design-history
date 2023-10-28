@@ -53,3 +53,4 @@ Furthermore, hint text was provided to increase the users understanding and afte
 
 In the second round of research we believe that this approach will benefit the service by providing a better understanding of the required information.
 
+<a href="/histories" class="govuk-back-link">Back</a>
