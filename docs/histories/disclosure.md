@@ -23,7 +23,7 @@ The last section of our user journey that they are required to input information
 
 ### Initial take
 
-The team created an step by step approach with a series of 3 to 5 boolean questions, depended on the users responces followed by an upload file page. In the end a brief check your answers page, played back to the users what they had previously selected and allowed them to submit that information to the system.
+The team created a step by step approach with a series of 3 to 5 boolean questions, depending on the user's response followed by an upload file page. In the end a brief check your answers page, played back to the users what they had previously selected and allowed them to submit that information to the system.
 
 ### The Research
 
@@ -41,7 +41,7 @@ The user research highlighted this part as a pain point as the similarity of the
 
 ### Full disclosure
 
-We decided to bring all the questions together and fully disclose all the possible outcomes to the user upfront. This is how the Version 2 of the prototype now looks, the expectation is that the users will find this approach easier to understand and feel more confident in their selection, thus improving usability, task completion ratio and increase coherence. 
+We decided to bring all the questions together and fully disclose all the possible outcomes to the user upfront. This is how the Version 2 of the prototype now looks, the expectation is that the users will find this approach easier to understand and feel more confident in their selection, thus improving usability, task completion ratio and increasing coherence. 
 
 **After the Enhancement**
 
@@ -50,3 +50,4 @@ We decided to bring all the questions together and fully disclose all the possib
 ### Next steps
 
 In anticipation for the second round of research we believe that this approach will benefit the service in providing a user centred approach to design beyond the known and trodden path; in what actually verifiably works. If it doesn't the team will go back to the drawing board and create a different solution
+

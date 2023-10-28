@@ -19,7 +19,7 @@ related:
 
 ## Dealing with complexity 
 
-The Connected persons section of the users journey had 14 out of 14 participants requiring more clarity. Ranging from not understanding the exactly what was requested from them to provide to not understanding what it meant as a phrase at all. The team had wrongly presupposed that the suppliers, as subject matter experts would completely comprehend the definition and select the appropriate radio selection from the 9 options provided.
+The Connected persons section of the users journey had 14 out of 14 participants requiring more clarity. Ranging from not understanding exactly what was requested from them to not understanding what it meant as a phrase at all. The team had wrongly presupposed that the suppliers, as subject matter experts, would completely comprehend the definition and select the appropriate radio selection from the 9 options provided.
 
 ### The problem space
 
@@ -52,3 +52,4 @@ Furthermore, hint text was provided to increase the users understanding and afte
 ### Next steps
 
 In the second round of research we believe that this approach will benefit the service by providing a better understanding of the required information.
+
