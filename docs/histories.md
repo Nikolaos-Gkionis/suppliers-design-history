@@ -31,6 +31,16 @@ histories:
       date: 2023-10-24
       title: The Ultimate goal
       description: The whole purpose of this service is to allow suppliers to share their core data, how are we improving this goal.
+  - url: "/histories/disclosure"
+    data:
+      date: 2023-10-25
+      title: Full disclosure
+      description:  When staged disclosure aka one thing per page does not work, and progressive disclosure does not fit the context.
+  - url: "/histories/complexity"
+    data:
+      date: 2023-10-25
+      title: Dealing with complexity
+      description:  The single biggest pain point was the 'Connected Persons' part of the journey, 100% of the users struggled in some way.
 related:
   sections:
     - items:

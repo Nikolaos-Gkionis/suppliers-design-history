@@ -16,6 +16,7 @@ related:
         - text: Prototype link
           href: https://si-prototype-v2-28b848ff1dde.herokuapp.com/
 ---
+
 ## Address replicator
 
 User feedback serves as a compass for innovation and improvement. Prototype Version 1.0 faced an important evolution prompted by users' needs, which we now refer to as the Address Replicator.

@@ -1,7 +1,7 @@
 ---
 layout: post
 includeInBreadcrumbs: true
-order: 5
+order: 4
 description: The whole purpose of this service is to allow suppliers to share their core data, how are we improving this goal.
 eleventyNavigation:
   key: Share
