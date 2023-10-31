@@ -41,6 +41,11 @@ histories:
       date: 2023-10-25
       title: Dealing with complexity
       description:  The single biggest pain point was the 'Connected Persons' part of the journey, 100% of the users struggled in some way.
+  - url: "/histories/exclusions"
+    data:
+      date: 2023-10-25
+      title: Aligning with policy
+      description:  The decision to use one pattern of design over another, in order to align with policy intent.
 related:
   sections:
     - items:
