@@ -19,7 +19,7 @@ related:
 
 ## Designing with the outcome in mind
 
-The Exclusions, both Mandatory and Discretionary are a multitude of fields that he policy intend requires the users to physically state via selecting yes or no, which if any exclusions need to be applied to each supplier. The initial design allowed the user to select only one, or a few checkboxes and therefore not explicitly state whether they as a supplier have committed a crime that needs an exclusion.
+The Exclusions, both Mandatory and Discretionary are a multitude of fields that τhe policy intend requires the users to physically state via selecting yes or no, which if any exclusions need to be applied to each supplier. The initial design allowed the user to select only one, or a few checkboxes and therefore not explicitly state whether they as a supplier have committed a crime that needs an exclusion.
 
 ### The problem space
 
