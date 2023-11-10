@@ -4,8 +4,8 @@ layout: product
 includeInBreadcrumbs: true
 description:
 image:
-  src: /assets/CCS-LOGO.PNG
-  alt: NCTS EU UK map with HMRC logo.
+  src: /assets/london.jpg
+  alt: UK parliament
 eleventyComputed:
   title: "{{ pkg.description }}"
   ogImage:

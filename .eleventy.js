@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(require('./index.js'), {
-    brandColour: '#9b1b46',
+    brandColour: '#1d70b8',
     fontFamily: 'system-ui, sans-serif',
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true',
