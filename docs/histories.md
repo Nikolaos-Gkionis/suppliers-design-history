@@ -11,6 +11,11 @@ pagination:
   data: histories
   size: 10
 histories:
+  - url: "/histories/postcode"
+    data:
+      date: 2023-11-14
+      title: Find and select a UK address
+      description: Improving the user experience for the majority of the users, adding a UK postcode search functionality.
   - url: "/histories/home"
     data:
       date: 2023-11-14
