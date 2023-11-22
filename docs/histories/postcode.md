@@ -59,7 +59,7 @@ Following the implementation of the postcode search functionality, we will condu
 
 ### How you can do this for your service
 
-To achieve the required functionality we used the Axios API, first you need to install the API by simply running: 
+To achieve the required functionality we used the Axios for API callbacks, and the OS Places API; first you need to install the API by simply running: 
 
 ```BASH 
 npm install axios
