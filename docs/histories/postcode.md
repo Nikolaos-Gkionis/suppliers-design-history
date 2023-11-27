@@ -7,14 +7,14 @@ eleventyNavigation:
   key: Postcode
   parent: Histories
 aside:
-  title: SI Version 2 prototype
+  title: SI Version 3 prototype
   content: |
-    Password:  SI-V2
+    Password:  Supplier-V3
 related:
   sections:
     - items:
         - text: Prototype link
-          href: https://si-prototype-v2-28b848ff1dde.herokuapp.com/
+          href: https://si-prototype-v3-4aa8b949bfc9.herokuapp.com/start-page
 ---
 
 ## Adding a UK postcode search functionality
