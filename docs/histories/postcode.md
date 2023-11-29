@@ -14,7 +14,7 @@ related:
   sections:
     - items:
         - text: Prototype link
-          href: https://si-prototype-v3-4aa8b949bfc9.herokuapp.com/start-page
+          href: https://si-prototype-v3-4aa8b949bfc9.herokuapp.com/start-page3
 ---
 
 ## Adding a UK postcode search functionality

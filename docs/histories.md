@@ -11,9 +11,14 @@ pagination:
   data: histories
   size: 10
 histories:
+  - url: "/histories/connecting"
+    data:
+      date: 2023-11-28
+      title: Connecting sections and data
+      description: How we connected separate sections and data to reduce duplication and improve the service overall user experience.
   - url: "/histories/postcode"
     data:
-      date: 2023-11-14
+      date: 2023-11-21
       title: Find and select a UK address
       description: Improving the user experience for the majority of the users, adding a UK postcode search functionality.
   - url: "/histories/home"
@@ -56,11 +61,15 @@ histories:
       date: 2023-09-18
       title: Aligning with policy
       description:  The decision to use one pattern of design over another, in order to align with policy intent.
+aside:
+  title: SI Version 4 prototype
+  content: |
+    Password:  V4-Proto
 related:
   sections:
     - items:
-        - text: Latest Prototype link
-          href: https://si-prototype-616667192c06.herokuapp.com/
+        - text: Prototype link
+          href: https://suppliers-v4-proto-8e2c4514d095.herokuapp.com/
 tags:
   - homepage
 ---
