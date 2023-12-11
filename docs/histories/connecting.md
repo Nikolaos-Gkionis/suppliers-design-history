@@ -22,13 +22,13 @@ related:
 
 ### Addressing User Feedback and Improving User Journey
 
-In response to user feedback highlighting concerns about the overwhelming nature of repeated information requests, a decision was made to enhance the prototype's functionality. The proposed solution involved implementing a mechanism to pass previously committed data from one section to another. This strategic decision was greenlit, and the team proceeded with the necessary improvements.
+Users highlighted the repetition of information - they were adding the details of connected persons, then duplicating that information if the connected person was the subject of an exclusion. This process followed the policy instructions, but was not an ideal user journey.
+
+We improved the journey by using the connected person as the ‘master’ and asking users to select the appropriate person. If a user wanted to add a person that wasn’t listed as the subject of an exclusion, we directed them towards adding them as a connected person first, then they could be selected, with only minor additional information required.
 
 ### Pre-Enhancement Challenges
 
-Prior to this enhancement, the practice of passing data between pages was not unfamiliar, especially in GDS style prototypes where it was commonly employed for a 'Check your Answers' page. However, our unique use case presented a complex challenge. We needed to transmit details for an indefinite number of data sets, each comprising 9 variable types, 3 types of addresses, and a diverse data schema for each of the 9 types. The complexity made it nearly impossible to accurately calculate and bring the correct data set into subsequent sections.
-
-The culmination of the user's journey, showing the count of connected persons added, was displayed on the 'Account Home' page. Subsequent pages, including the 'Mandatory Exclusions' section, required the user to make selections based on previously input data.
+Prior to this enhancement, the user had to add the details for each person that was the subject of an exclusion. This often duplicated information that had previously been given for the person in their role as a connected person:
 
 ![Previous](/assets/connect/1.png)
 
