@@ -33,7 +33,7 @@ From a UX research perspective, incorporating user feedback is essential for ens
 
 ### Providing the solution
 
-n response to the user feedback, we implemented a postcode search functionality to streamline the address input process. We replaced the original fieldset of inputs with a simple postcode field input, allowing users to search for UK postcodes. This change significantly reduced the number of steps required to enter an address, making the process more efficient and user-friendly.
+In response to the user feedback, we implemented a postcode search functionality to streamline the address input process. We replaced the original fieldset of inputs with a simple postcode field input, allowing users to search for UK postcodes. This change significantly reduced the number of steps required to enter an address, making the process more efficient and user-friendly.
 
 ![Previous](/assets/postcode/1.png)
 
