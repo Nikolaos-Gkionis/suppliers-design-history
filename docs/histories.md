@@ -62,7 +62,7 @@ histories:
       title: Aligning with policy
       description:  The decision to use one pattern of design over another, in order to align with policy intent.
 aside:
-  title: SI Version 4 prototype
+  title: SI Version 5 prototype
   content: |
     Password:  SI-Version5
 related:
