@@ -9,11 +9,12 @@ related:
     - items:
         - text: Google drive
           href: https://drive.google.com/
+        - text: Dovetail
+          href: https://crown-commercial-service.dovetail.com/auth/login
 tags:
   - homepage
 ---
 
-## This is a page for you Richard!!
+## This is an internal page for CCS staff!
 
-- The style is exactly the same as the Design histories, you can write better than me. You have already written so much.
-- Break it down to parts and there you go...
+You will need a @crowncommercial.gov.uk email address to access the Dovetail repo.
