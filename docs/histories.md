@@ -64,12 +64,12 @@ histories:
 aside:
   title: SI Version 4 prototype
   content: |
-    Password:  V4-Proto
+    Password:  SI-Version5
 related:
   sections:
     - items:
         - text: Prototype link
-          href: https://suppliers-v4-proto-8e2c4514d095.herokuapp.com/
+          href: https://suppliers-proto-v5-25be6c19f448.herokuapp.com/
 tags:
   - homepage
 ---
