@@ -15,7 +15,7 @@
   "contributors": [
     {
       "name": "Nikolaos Gkionis",
-      "url": "https://si-prototype-616667192c06.herokuapp.com/"
+      "url": "https://github.com/Nikolaos-Gkionis/suppliers-design-history"
     }
   ],
   "license": "MIT",
@@ -28,7 +28,7 @@
   "sass": "lib/govuk.scss",
   "repository": {
     "type": "git",
-    "url": "ctc-trader-p5-prototype.herokuapp.com/"
+    "url": "https://github.com/Nikolaos-Gkionis/suppliers-design-history"
   },
   "scripts": {
     "prebuild": "rimraf public",
