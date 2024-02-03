@@ -2,74 +2,75 @@
 layout: collection
 includeInBreadcrumbs: true
 order: 2
-title: Design histories
-description: Design histories are posts about the evolution and the design decisions of the service. They are smaller than case studies and provide a snapshot on a section of the whole service.
+title: Design history
+description: Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sagittis ornare diam id mollis.
 eleventyNavigation:
   key: Histories
-paginationHeading: Design Histories
+paginationHeading: Design History
 pagination:
   data: histories
   size: 10
 histories:
-  - url: "/histories/connecting"
+  - url: "/histories/routes"
     data:
-      date: 2023-11-28
-      title: Connecting sections and data
-      description: How we connected separate sections and data to reduce duplication and improve the service overall user experience.
-  - url: "/histories/postcode"
+      date: 2022-09-21
+      title: Routes sub-journey
+      description: A complex sub-journey with many variable paths and dependencies.
+  - url: "/histories/dashboard-design"
     data:
-      date: 2023-11-21
-      title: Find and select a UK address
-      description: Improving the user experience for the majority of the users, adding a UK postcode search functionality.
-  - url: "/histories/home"
+      date: 2022-08-23
+      title: Dashboard design
+      description: A/B testing dashboard variants for save and retrieve functionality.
+  - url: "/histories/validation"
     data:
-      date: 2023-11-14
-      title: An Account home page re-design
-      description: Changing the account home page to provide feedback to the user on their progress through the initial journey and timestamps for a returning user.
-  - url: "/histories/start"
+      date: 2022-07-15
+      title: Validation
+      description: Should prototypes have validation?
+  - url: "/histories/macro-interactions"
     data:
-      date: 2023-11-07
-      title: A New Start page
-      description: Creating a 'Start a service' page for the Suppliers information service.
-  - url: "/histories/replicator"
+      date: 2022-07-14
+      title: Macro interactions
+      description: A series of different approaches to a single user problem.
+  - url: "/histories/house-consignments"
     data:
-      date: 2023-10-24
-      title: Address replicator (Basic Information)
-      description: Enhancement to enable address reuse, thus saving time and improving accuracy.
-  - url: "/histories/hint"
+      date: 2022-07-07
+      title: House consignments
+      description: Exploring our riskiest assumption.
+  - url: "/histories/guarantee"
     data:
-      date: 2023-10-17
-      title: The Role of Hint Text
-      description: The importance of providing additional contextual information, often referred to as Hint Text.
-  - url: "/histories/share"
+      date: 2022-07-01
+      title: Guarantee
+      description: One of our smallest sub-journeys with a lot of dependencies.
+  - url: "/histories/trader-details"
     data:
-      date: 2023-10-10
-      title: The Ultimate goal
-      description: The whole purpose of this service is to allow suppliers to share their core data, how are we improving this goal.
-  - url: "/histories/disclosure"
+      date: 2022-06-30
+      title: Trader details
+      description: The new phase 5 trader details journey.
+  - url: "/histories/pre-task-list"
     data:
-      date: 2023-10-03
-      title: Full disclosure
-      description:  When staged disclosure aka one thing per page does not work, and progressive disclosure does not fit the context.
-  - url: "/histories/complexity"
+      date: 2022-06-21
+      title: Pre task-list
+      description: The first step every user takes to complete a departure declaration.
+  - url: "/histories/the-model"
     data:
-      date: 2023-09-25
-      title: Dealing with complexity
-      description:  The single biggest pain point was the 'Connected Persons' part of the journey, 100% of the users struggled in some way.
-  - url: "/histories/exclusions"
+      date: 2022-05-15
+      title: The Model
+      description: A model of information dependencies and branching used as a guide to an accurate fully functional prototype.
+  - url: "/histories/map"
     data:
-      date: 2023-09-18
-      title: Aligning with policy
-      description:  The decision to use one pattern of design over another, in order to align with policy intent.
+      date: 2022-06-10
+      title: The Map
+      description: Ecosystem and Service landscape for phase 5.
 aside:
-  title: SI Version 5 prototype
+  title: NCTS P5 prototype
   content: |
-    Password:  SI-Version5
+    Username:  prototype
+    Password:  thisisabadpassword
 related:
   sections:
     - items:
         - text: Prototype link
-          href: https://suppliers-proto-v5-25be6c19f448.herokuapp.com/
+          href: https://ctc-trader-p5-prototype.herokuapp.com/
 tags:
   - homepage
 ---

@@ -1,7 +1,7 @@
 {
   "name": "govuk-eleventy-plugin",
   "version": "2.2.0",
-  "description": "Design documentation for the Supplier's Information web application",
+  "description": "A Design history for the NCTS5 front end application",
   "keywords": [
     "govuk",
     "government",
@@ -15,7 +15,7 @@
   "contributors": [
     {
       "name": "Nikolaos Gkionis",
-      "url": "https://github.com/Nikolaos-Gkionis/suppliers-design-history"
+      "url": "https://github.com/Nikolaos-Gkionis/ncts-design-history"
     }
   ],
   "license": "MIT",
@@ -28,7 +28,7 @@
   "sass": "lib/govuk.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nikolaos-Gkionis/suppliers-design-history"
+    "url": "https://github.com/Nikolaos-Gkionis/ncts-design-history"
   },
   "scripts": {
     "prebuild": "rimraf public",

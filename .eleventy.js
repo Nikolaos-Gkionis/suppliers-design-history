@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
   const url = process.env.GITHUB_ACTIONS
-    ? 'https://github.com/Nikolaos-Gkionis/hmrc-11ty/'
+    ? 'https://github.com/Nikolaos-Gkionis/hmrc-ncts5/'
     : '/'
   const pathPrefix = process.env.GITHUB_ACTIONS
     ? '/ncts-design-history/'
@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
       touch: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
     },
     ogImage: '/assets/opengraph-image.png',
-    homeKey: 'SI Design History',
+    homeKey: 'NCTS5 Design History',
     parentSite: {
       url: '',
       name: ''
@@ -24,9 +24,9 @@ module.exports = function (eleventyConfig) {
     pathPrefix,
     url,
     header: {
-      organisationLogo: 'royal-arms',
+      organisationLogo: 'crown',
       organisationName: '',
-      productName: 'Supplier information design history',
+      productName: 'NCTS5 Design history',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'

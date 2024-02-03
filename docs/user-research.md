@@ -8,13 +8,11 @@ related:
   sections:
     - items:
         - text: Google drive
-          href: https://drive.google.com/
-        - text: Dovetail
-          href: https://crown-commercial-service.dovetail.com/auth/login
+          href: https://drive.google.com/drive/folders/1ogN__qa57WntToyaHRqyKTvBxX1uV8zD
 tags:
   - homepage
 ---
 
-## This is an internal page for CCS staff!
+## Firewall protected content
 
-You will need a @crowncommercial.gov.uk email address to access the Dovetail repo.
+- The link on the related section on the right exist behind an HMRC VPN, if you not a member of the HMRC Digital staff you will not be able to access this content. Further information might be published here in the future.
