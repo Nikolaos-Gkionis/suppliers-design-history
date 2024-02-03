@@ -3,7 +3,7 @@ layout: collection
 includeInBreadcrumbs: true
 order: 2
 title: Design history
-description: Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sagittis ornare diam id mollis.
+description: A collection of posts regarding a specific user problem and the solution implemented.
 eleventyNavigation:
   key: Histories
 paginationHeading: Design History
