@@ -24,7 +24,7 @@ Yes, there are cases where such high fidelity is not required; having said that 
 
 Branching should be the first level, passing data should be the second, conditional logic should be the third and finally error validation should be the last.
 
-Working on the NCTS phase 5 prototype we have used the `HTML` form validation for empty fields. away. Or, click the Write button and compose something new.
+Working on the NCTS phase 5 prototype we have used the `HTML` form validation for empty fields. 
 
 ```HTML
  <form class="form" method="post">
